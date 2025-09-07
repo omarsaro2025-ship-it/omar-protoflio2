@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omar saro | Frontend Developer</title>
+  <meta name="description" content="Portfolio of Alex Johnson, Full Stack Developer specializing in React, Node.js, and scalable web solutions." />
+  <meta name="keywords" content="Full Stack Developer, React, Node.js, Portfolio, Web Development" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Alex Johnson - Full Stack Developer" />
+  <meta property="og:description" content="Explore Alex Johnson's portfolio of web apps, mobile apps, and e-commerce projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="your-preview-image.jpg" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Alex Johnson - Full Stack Developer" />
+  <meta name="twitter:description" content="Explore Alex Johnson's portfolio of web apps, mobile apps, and e-commerce projects." />
+  <meta name="twitter:image" content="your-preview-image.jpg" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+  
+  <!-- Progress bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Navbar -->
+  <nav class="fixed w-full top-0 z-50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md shadow">
+    <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-xl font-bold">Alex Johnson</h1>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="ml-4 px-3 py-1 rounded-md bg-gray-200 dark:bg-gray-700">🌙</button>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="h-screen flex flex-col items-center justify-center text-center px-4">
+    <div >
+      <img src="me.jpg" alt="Professional headshot of a young man with short brown hair, wearing glasses, smiling warmly against a clean white background with soft lighting" class="profile-img" />
+    </div>
+    <h2 class="text-4xl font-bold">Hi, I'm Alex Johnson</h2>
+    <p class="mt-4 text-lg max-w-xl">A passionate Full Stack Developer building modern, scalable web applications.</p>
+    <a href="#projects" class="mt-6 inline-block px-6 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition">View Projects</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 max-w-5xl mx-auto px-4">
+    <h2 class="section-title">About Me</h2>
+    <p class="mt-4 text-lg leading-relaxed">I am Omar a Frontend Developer with expertise in building robust web apps using React, Node.js, and modern web technologies. I love problem-solving and creating seamless user experiences.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="section-title">Skills</h2>
+      <div class="mt-6 space-y-6">
+        <div>
+          <p>React</p>
+          <div class="skill-bar"><span data-skill="65"></span></div>
+        </div>
+        <div>
+          <p>Node.js</p>
+          <div class="skill-bar"><span data-skill="60"></span></div>
+        </div>
+        <div>
+          <p>CSS / Tailwind</p>
+          <div class="skill-bar"><span data-skill="100"></span></div>
+        </div>
+        <div>
+          <p>Html</p>
+          <div class="skill-bar"><span data-skill="100"></span></div>
+        </div>
+        <div>
+          <p>python</p>
+          <div class="skill-bar"><span data-skill="95"></span></div>
+        </div>
+        <div>
+          <p>problem solving</p>
+          <div class="skill-bar"><span data-skill="90"></span></div>
+        </div>
+        <div>
+          <p>creative thinking</p>
+          <div class="skill-bar"><span data-skill="100"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 max-w-6xl mx-auto px-4">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid gap-8 mt-8 md:grid-cols-2">
+      <div class="card">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7b1f761f-eef1-4cb1-8d95-d6eae826d049.png" alt="Screenshot of a modern dashboard with colorful charts and graphs displaying analytics data on a computer screen" class="rounded-md mb-4" />
+        <h3 class="font-semibold text-xl">Web App Project</h3>
+        <p class="mt-2">A modern web app built with React and Node.js.</p>
+      </div>
+      <div class="card">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dcddac67-5f6a-4e25-8be9-3cfb45779d70.png" alt="Interface of an e-commerce website showing product listings, shopping cart, and checkout process with clean design" class="rounded-md mb-4" />
+        <h3 class="font-semibold text-xl">E-Commerce Platform</h3>
+        <p class="mt-2">Frontend e-commerce solution with secure checkout.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-20 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline mt-8">
+        <div class="timeline-item">
+          <h3>Senior Frontend Developer</h3>
+          <p>Tech Innovators Inc. | 2022 - Present</p>
+          <p>Led team of 5 developers...</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Frontend Developer</h3>
+          <p>Digital Solutions Ltd. | 2020 - 2022</p>
+          <p>Developed and maintained web applications...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-20 max-w-4xl mx-auto px-4">
+    <h2 class="section-title">Education</h2>
+    <div class="mt-6 space-y-6">
+      <div class="education-card">
+        <h3>prepatory school</h3>
+        <p>Grade 8</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="section-title">Services</h2>
+      <div class="grid gap-6 mt-8 md:grid-cols-2 lg:grid-cols-3">
+        <div class="service-card">
+          <h3>Web Development</h3>
+          <p>Building modern web apps...</p>
+          <p>$50/hour</p>
+        </div>
+        <div class="service-card">
+          <h3>Mobile Development</h3>
+          <p>Cross-platform mobile apps...</p>
+          <p>$60/hour</p>
+        </div>
+        <div class="service-card">
+          <h3>Consulting</h3>
+          <p>Technical advice and mentoring...</p>
+          <p>$75/hour</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-20 max-w-6xl mx-auto px-4">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="grid gap-8 mt-8 md:grid-cols-2">
+      <div class="testimonial-card">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/85e39d18-b030-4cf0-9f18-09e9d3b67897.png" alt="Professional photo of a woman with brown hair, smiling in business attire" class="rounded-full mb-4" />
+        <p>"Alex delivered exceptional work..."</p>
+        <p>- Jane Doe, CEO</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a27793d3-ff16-45d4-bdd0-39080b1164e3.png" alt="Professional photo of a man with gray hair, in a suit" class="rounded-full mb-4" />
+        <p>"Highly recommend Alex..."</p>
+        <p>- John Smith, CTO</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog" class="py-20 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="section-title">Blog</h2>
+      <div class="grid gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+        <div class="blog-card">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/05bc03d9-5156-4b07-9958-3bc0ba476575.png" alt="Blog post thumbnail showing code on a laptop screen with coffee and notebook" class="rounded-md mb-4" />
+          <h3>Best Practices for Web Development</h3>
+          <p>Learn the latest techniques...</p>
+        </div>
+        <div class="blog-card">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/9b70bbfe-a5da-4b47-a8cd-f3a5a5165b53.png" alt="Blog post thumbnail showing server rack and coding interface" class="rounded-md mb-4" />
+          <h3>Scaling Node.js Applications</h3>
+          <p>Tips for handling high traffic...</p>
+        </div>
+        <div class="blog-card">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b46dec68-a163-4cea-8193-a32650c631b3.png" alt="Blog post thumbnail showing mobile app on phones" class="rounded-md mb-4" />
+          <h3>Mobile First Development</h3>
+          <p>Building responsive apps...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="mt-4">Interested in working together? Let's connect!</p>
+      <form id="contact-form" class="mt-8 max-w-md mx-auto">
+        <input type="text" placeholder="Name" required class="form-input" />
+        <input type="email" placeholder="Email" required class="form-input" />
+        <textarea placeholder="Message" required class="form-input"></textarea>
+        <button type="submit" class="form-button">Send Message</button>
+      </form>
+      <a href="omarsaro2025@gmail.com" class="mt-6 inline-block px-6 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-6 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <p>© 2025 Omar saro. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" class="hidden fixed bottom-6 right-6 p-3 rounded-full bg-blue-600 text-white shadow-lg">↑</button>
+
+  <script src="script.js"></script>
+
+
+
+
